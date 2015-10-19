@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-  inputNumber = prompt("What number would you like me to ping-pong", " ");
-  var inputNumber = ["myNumbers"];
+  var inputNumber = prompt("What number would you like me to ping-pong", " ");
 
   myNumbers = ["1","2","3","4","5","6","7"]
 
