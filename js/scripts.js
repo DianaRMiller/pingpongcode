@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-  inputNumber = prompt("Please enter a number to start playing", " ");
+  inputNumber = prompt("What number would you like me to ping-pong", " ");
   var inputNumber = ["myNumbers"];
 
-  myNumbers = ["3","9","15","18","25","27","30"]
+  myNumbers = ["1","2","3","4","5","6","7"]
 
   $("inputNumbers").append("<li>" + inputNumbers + "</li>");
 
