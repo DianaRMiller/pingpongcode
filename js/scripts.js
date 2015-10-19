@@ -1,10 +1,14 @@
 $(document).ready(function() {
 
   var inputNumber = prompt("What number would you like me to ping-pong", " ");
+  $(".inputNumber").text(inputNumber);
 
-  myNumbers = ["1","2","3","4","5","6","7"]
+  var exampleNumbers = [22, 44, 66, 77];
 
-  $("inputNumbers").append("<li>" + inputNumbers + "</li>");
+  exampleNumbers.forEach(function(exampleNumber) {
+    $('.inputNumber').append("<li>" + exampleNumber + "</li>");
+  });
+
 
   event.preventDefault();
 });
