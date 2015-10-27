@@ -6,8 +6,7 @@ Welcome to Diana Miller's JavaScript Code Review! This is an html, css and
 JavaScript framework where the user is prompt to enter a number and the page
 has to display a list of numbers. The page will print "ping" for multiples of
 3 and "pong" for multiples of 5. In addition it will print "ping pong" for both
-multiples of 3 and 5. Sounds exciting! It's both fun and challenging; a work in
-progress since my code isn't completely finished. Be patient until I figure it out!
+multiples of 3 and 5. Sounds exciting! It's both fun and challenging.
 Here are some of the features my project provides for you:
 
 * It shows how JavaScript works with a Ping pong demo
@@ -26,8 +25,7 @@ https://DianaRMiller.github.io/pingpongcode
 1) Upload github pages to your server, and copy the following link.
 
 2) Input a number and start playing ping pong! Check out what happens when you
-input a multiple of 3 and/or 5. It's fun! FYI "scripts.js currently under
-construction".
+input a multiple of 3 and/or 5. It's fun!
 
 3) That's it! Have fun and pass it along!.
 
@@ -55,8 +53,7 @@ The framework has a few files you should check out.
   between the user and the html page. It prompts the user to enter a number and the page has to
   display every number from a list up to a certain number.
   The page will print "ping" for multiples of 3, "pong" for multiples of 5 and "ping-pong" for
-  both multiples of 3 and 5... Unfortunately my code isn't finish and working properly but it's
-  a work in progress.
+  both multiples of 3 and 5.
 
 * README.md
   This file tells you more about my project, what programs I used and how to interact with it.
