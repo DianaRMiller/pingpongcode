@@ -1,11 +1,22 @@
 $(document).ready(function() {
 
-  inputNumber = prompt("Please enter a number to start playing", " ");
-  var inputNumber = ["myNumbers"];
+  var inputNumber = prompt("What number would you like me to ping-pong");
+    inputNumber = parseInt(inputNumber);
 
-  myNumbers = ["3","9","15","18","25","27","30"]
+  for (var index = 1; index <= inputNumber; index += 1) {
 
-  $("inputNumbers").append("<li>" + inputNumbers + "</li>");
+      if ((index % 3 === 0) && (index % 5 === 0)) {
+        $(".inputNumber").append("<li>" + "ping-pong" + "</li>");
+      } if (index % 3 === 0) {
+        $(".inputNumber").append("<li>" + "ping" + "</li>");
+      } if (index % 5 === 0) {
+        $(".inputNumber").append("<li>" + "pong" + "</li>");
+      } else {
+
+      $(".inputNumber").append("<li>" + index + "</li>");
+    }
+}
 
   event.preventDefault();
+
 });
