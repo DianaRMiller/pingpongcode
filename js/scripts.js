@@ -7,9 +7,9 @@ $(document).ready(function() {
 
       if ((index % 3 === 0) && (index % 5 === 0)) {
         $(".inputNumber").append("<li>" + "ping-pong" + "</li>");
-      } if (index % 3 === 0) {
+      } else if (index % 3 === 0) {
         $(".inputNumber").append("<li>" + "ping" + "</li>");
-      } if (index % 5 === 0) {
+      } else if (index % 5 === 0) {
         $(".inputNumber").append("<li>" + "pong" + "</li>");
       } else {
 
